@@ -16,6 +16,6 @@ public class EchoServer {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         String currentTime = now.format(formatter);
         
-        return "Hello, " + name + "! Current time is: " + currentTime + "\n";
+        return "Hello, " + name + " Current time is: " + currentTime + "\n";
     }
 }
